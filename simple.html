@@ -120,7 +120,7 @@ var obj = {
     nicoscreen.start();
     
 
-// YoutubeのJSファイルをロードします。
+// YoutubeのJSファイルをロード。
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -143,16 +143,15 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-// 再生が可能になると呼び出されます。
+// 再生が可能になると呼び出される。
 function onPlayerReady(event) {
   // 再生を開始します。
   event.target.playVideo();
 }
 
-// 再生した、停止したなどのプレーヤーのステータスが変わった場合に
-// 呼び出されます。
+// 再生した、停止したなどのプレーヤーのステータスが変わった場合に呼び出される
 function onPlayerStateChange(event) {
-  // 再生が終わったら、alertしてみます
+  // 再生が終わったら、alert
   if (event.data == YT.PlayerState.ENDED) {
     alert('finish');
     
