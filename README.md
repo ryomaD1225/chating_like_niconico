@@ -4,4 +4,4 @@ youtubeを見ながらニコニコ動画のようにオンラインでチャッ�
 ## Anything alse
 Writing by Javascript, HTML,CSS
 Backend: Firebase
-Used API/SDk: Youtube API, niconico 
+Used API/SDk: Youtube API, niconico動画風コメントライブラリ
